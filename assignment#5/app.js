@@ -90,6 +90,11 @@ browser.*/
 sort the array in ascending order using Array’s sort
 method.*/
 
+var studentScore=[20,25,16,5,81,19,1];
+document.write("STUDENT SCORE:"+studentScore);
+studentScore.sort();
+document.write=("<br>SORTED STUDENT SCORE:"+ studentScore); 
+
 
 /*11. Write a program to initialize an array with city names.
 Copy 3 array elements from cities array to selectedCities
@@ -116,9 +121,20 @@ below mentioned array:
 var arr = [“This ”, “ is ”, “ my ”, “ cat”];
 (Use array’s join method)*/
 
+/*
+var arr = ["This","is","my","cat"];
+document.write("ARRAY:<br>");
+document.write(arr);
+document.write("<br>String:<br>");
+var text = arr.join("  ");
+document.write(text);*/
+
+
+
 /*13. Create a new array. Store values one by one in such a way
 that you can access the values in the order in which they
 were stored. (FIFO-First In First Out)*/
+
 
 /*14. Create a new array. Store values one by one in such a way
 
